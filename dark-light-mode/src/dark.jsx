@@ -1,12 +1,12 @@
 import React from "react";
-import { Card,Img1 } from "./App.styled";
+import { Card,Img1,Leadboc } from "./App.styled";
 import  F from "../src/fille.svg"
 
 const Dark =()=>{
 
     return(
       <>
-
+      <div style={{display:"flex",background:"white",height:"1000px"}}>
         <Card>
             <Img1 style={{}} src="https://s3-alpha-sig.figma.com/img/ba0a/04be/3fe57490276bd6bbec4526bef0a99e9b?Expires=1651449600&Signature=DzAZ5QmhgU4Oe~ENXWBjPOCzz350CTzYxBRcwYwyhEJPZKYRRYpvSB4PvyEIJciDXvLrkqqD7vsQcRqNNabd~wIpSZd38TxmDmiPreTo88YuXDxpResebztt~yL8vrgMeyd7fWG~8724-FnqPXydOkQNV51com8D2NzXsIdVhgR16qZf2LreEh9xf76CNelE8gmRtMRtpYOzILpv9CXhzcRblwSdsOAYdKS~zqbT5hI5IZzpseyq9ZwXhQOBs8Ee34qETw9SapJY7HVx7AGeOLLYYctcOzcziREEFwVIl5EAFcqsmS81TtarxfQLD6CA5V4vv0uub024OI~MBcicNA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA">
             </Img1>
@@ -60,13 +60,19 @@ background:" rgba(218, 218, 218, 1)"
 <i style={{color:"gray"}} class="fa fa-cog" aria-hidden="true"></i>
 <img style={{color:"gray"}} src={F}/>
 </div>
-
-
-
-
+       
         </Card>
 
+         <div style={{display:"flex",marginLeft:"120px"}}> <h1>MY Dashboard</h1>
+          <button style={{height:"20px",marginTop:"35px",marginLeft:"20px"}}>Dark Mode</button>
+         </div>
+        <Leadboc>
+            <div style={{marginLeft:"20px",marginRight:"10PX",color:"white"}}>
+              dsgfdhtkn
+            </div>
+       </Leadboc>
 
+        </div>
       </>
     )
 }
